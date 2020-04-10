@@ -1,0 +1,30 @@
+body{
+    font-family: "Arial Narrow";
+    color: blue;
+    background-color: azure;
+}
+
+h1{
+    background-color: greenyellow;
+    font-size: x-large;
+}
+
+h2{
+    background-color: dodgerblue;
+    font-size: large;
+}
+
+p{
+    background-color: antiquewhite;
+    font-size: 25px;
+}
+
+div{
+    background-color: burlywood;
+
+}
+
+table{
+    border: chocolate 1px solid;
+    color: dodgerblue;
+}

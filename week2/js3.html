@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Programming</title>
+    <script src="js/javascript3.js"></script>
+</head>
+<body>
+a: <input type="number" id="numA">
+b: <input type="number" id="numB">
+<p id="mypara"></p>
+<button onclick="changeParaText(), changeMyValue(this)">change</button>
+<!-- this means the element itself, if you use 'this' in onclick method,
+you allow to use the element's methods and change value of the element's attributes -->
+<button onclick="changeMyValue(this)">change</button>
+</body>
+</html>

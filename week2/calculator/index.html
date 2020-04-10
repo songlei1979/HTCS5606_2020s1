@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body onload="initialCalcutor()">
+<table>
+    <tr>
+        <td colspan="4">
+            <input type="number" value="0" id="resultPlace">
+        </td>
+    </tr>
+    <tr>
+        <td><button class="special">AC</button></td>
+        <td><button class="special">&plusmn;</button></td>
+        <td><button class="special">%</button></td>
+        <td><button class="operator">&divide;</button></td>
+    </tr>
+    <tr>
+        <td><button class="numbers" onclick="clickSeven()">7</button></td>
+        <td><button class="numbers" onclick="clickEight()">8</button></td>
+        <td><button class="numbers" onclick="clickNine()">9</button></td>
+        <td><button class="operator">&times;</button></td>
+    </tr>
+    <tr>
+        <td><button class="numbers" onclick="clickFour()">4</button></td>
+        <td><button class="numbers" onclick="clickFive()">5</button></td>
+        <td><button class="numbers" onclick="clickSix()">6</button></td>
+        <td><button class="operator">-</button></td>
+    </tr>
+    <tr>
+        <td><button class="numbers" onclick="clickOne()">1</button></td>
+        <td><button class="numbers" onclick="clickTwo()">2</button></td>
+        <td><button class="numbers" onclick="clickThree()">3</button></td>
+        <td><button class="operator">+</button></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button class="numbers" onclick="clickZero()">0</button></td>
+        <td><button class="numbers">.</button></td>
+        <td><button class="operator">=</button></td>
+    </tr>
+</table>
+</body>
+</html>

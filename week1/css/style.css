@@ -1,0 +1,19 @@
+body {
+    background-color: darkgray;
+    text-align: center;
+    font-family: "Apple Symbols";
+    color: red;
+}
+
+h1{
+    color: black;
+    background-color: brown;
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+    color: brown;
+    background-color: aquamarine;
+    font-size: 30px ;
+}

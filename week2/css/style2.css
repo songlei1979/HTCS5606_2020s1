@@ -1,0 +1,20 @@
+h1{
+    font-size: medium;
+    color: blue;
+    background-color: aquamarine;
+}
+
+.group1{
+    font-size: large;
+    color: red;
+}
+
+.group2{
+    font-size: small;
+    background-color: burlywood;
+}
+
+#heading5{
+    font-size: xx-large;
+    background-color: coral;
+}
