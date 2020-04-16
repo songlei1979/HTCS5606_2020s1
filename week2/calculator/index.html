@@ -17,30 +17,30 @@
         <td><button class="special" onclick="clickAC()">AC</button></td>
         <td><button class="special" onclick="convertSign()">&plusmn;</button></td>
         <td><button class="special" onclick="persentage()">%</button></td>
-        <td><button class="operator">&divide;</button></td>
+        <td><button class="operator" value="divide" onclick="clickSign(this)">&divide;</button></td>
     </tr>
     <tr>
-        <td><button class="numbers" onclick="clickSeven()">7</button></td>
-        <td><button class="numbers" onclick="clickEight()">8</button></td>
-        <td><button class="numbers" onclick="clickNine()">9</button></td>
-        <td><button class="operator">&times;</button></td>
+        <td><button class="numbers" value="7" onclick="clickNum(this)">7</button></td>
+        <td><button class="numbers" value="8" onclick="clickNum(this)">8</button></td>
+        <td><button class="numbers" value="9" onclick="clickNum(this)">9</button></td>
+        <td><button class="operator" value="times" onclick="clickSign(this)">&times;</button></td>
     </tr>
     <tr>
-        <td><button class="numbers" onclick="clickFour()">4</button></td>
-        <td><button class="numbers" onclick="clickFive()">5</button></td>
-        <td><button class="numbers" onclick="clickSix()">6</button></td>
-        <td><button class="operator">-</button></td>
+        <td><button class="numbers" value="4" onclick="clickNum(this)">4</button></td>
+        <td><button class="numbers" value="5" onclick="clickNum(this)">5</button></td>
+        <td><button class="numbers" value="6" onclick="clickNum(this)">6</button></td>
+        <td><button class="operator" value="delete" onclick="clickSign(this)">-</button></td>
     </tr>
     <tr>
-        <td><button class="numbers" onclick="clickOne()">1</button></td>
-        <td><button class="numbers" onclick="clickTwo()">2</button></td>
-        <td><button class="numbers" onclick="clickThree()">3</button></td>
-        <td><button class="operator">+</button></td>
+        <td><button class="numbers" value="1" onclick="clickNum(this)">1</button></td>
+        <td><button class="numbers" value="2" onclick="clickNum(this)">2</button></td>
+        <td><button class="numbers" value="3" onclick="clickNum(this)">3</button></td>
+        <td><button class="operator" value="plus" onclick="clickSign(this)">+</button></td>
     </tr>
     <tr>
-        <td colspan="2"><button class="numbers" onclick="clickZero()">0</button></td>
+        <td colspan="2"><button class="numbers" value="0" onclick="clickNum(this)">0</button></td>
         <td><button class="numbers" onclick="clickDot()">.</button></td>
-        <td><button class="operator">=</button></td>
+        <td><button class="operator" value="equals" onclick="clickEqual()">=</button></td>
     </tr>
 </table>
 </body>
