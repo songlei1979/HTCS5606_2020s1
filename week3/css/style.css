@@ -1,0 +1,82 @@
+/*div{*/
+/*    border: black solid 1px;*/
+/*}*/
+
+/*ctrl + /*/
+/*# is id*/
+#nav ul{
+    /*remove bullet points*/
+    list-style-type: none;
+    /*no space between ul and nav div*/
+    margin: 0;
+    padding: 0;
+    background-color: #ffb861;
+    border: red solid 1px;
+}
+
+#nav li{
+    /*move text to center for */
+    text-align: center;
+
+    /*move all list items to one line*/
+    display: inline;
+}
+
+#nav li a{
+    color: black;
+    margin: 10px;
+
+    /*remove the ___ for my hyperlink*/
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    /*background-color: grey;*/
+    /*font-style: italic;*/
+    transform: scale(1.5, 1.5);
+}
+
+/*tomorrow*/
+#nav li img{
+    width: 50px;
+    height: 50px;
+}
+
+/*animation*/
+/*firstly div setup*/
+#animation{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /*thirdly setup animation*/
+    animation-name: first_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*secondly create keyframe*/
+@keyframes first_animation {
+    /*in keyframe we will change from ... to ...*/
+    from {background-color: red}
+    to {background-color: black}
+}
+
+#animation2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: secondAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes secondAnimation {
+    0% {background-color: red;}
+    20% {background-color: #fd9f2b}
+    40% {background-color: blueviolet}
+    60% {background-color: aqua}
+    80% {background-color: crimson}
+    100% {background-color: black}
+}
+
+
