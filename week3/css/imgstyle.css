@@ -1,3 +1,19 @@
+#imageMenu{
+    text-align: center;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+}
+ul{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    display: inline;
+}
+
 img{
     width: 50px;
     height: 50px;
