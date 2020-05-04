@@ -30,8 +30,6 @@ function moveImage() {
     y = 10; //top
     speed = Number(document.getElementById("speedInput").value);
     // create a function in loop, and loop it each half second
-    var audio = new Audio('audio_file.mp3');
-    audio.play();
     setInterval(function () {
         if (x <500 && y <= 10){
             x = x + speed;
