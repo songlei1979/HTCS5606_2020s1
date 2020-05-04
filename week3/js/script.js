@@ -31,17 +31,18 @@ function moveImage() {
     speed = Number(document.getElementById("speedInput").value);
     // create a function in loop, and loop it each half second
     setInterval(function () {
-        if (x == 10 && x <= 500 && y == 10){
-            x=x+speed; //only moving to right
-        }else if(y == 10 && y <= 500 && x >= 500){
-            y=y+speed; //only moving to bottom
-        }else if(x == 500 && y == 500){
-            x=x-speed; //only moving to left
-        }else if(x == 10 && y == 500){
-            y = y-speed; //only moving to top
+        if (x <500 && y <= 10){
+            x = x + speed;
         }
-        console.log("x=",x);
-        console.log("y=", y);
+        if (x >= 500 && y < 500){
+            y = y + speed;
+        }
+        if (x > 10 && y >= 500){
+            x = x - speed;
+        }
+        if (x <= 10 && y >10){
+            y = y - speed;
+        }
         image.style.left = x+"px";
         image.style.top = y+"px";
     }, 500);
