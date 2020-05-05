@@ -32,16 +32,16 @@ function moveImage() {
     // create a function in loop, and loop it each half second
     setInterval(function () {
         if (x <500 && y <= 10){
-            x = x + speed;
+            x = x + speed; //move to right only
         }
         if (x >= 500 && y < 500){
-            y = y + speed;
+            y = y + speed; //move to down only
         }
         if (x > 10 && y >= 500){
-            x = x - speed;
+            x = x - speed; //move to left
         }
         if (x <= 10 && y >10){
-            y = y - speed;
+            y = y - speed; //move up
         }
         image.style.left = x+"px";
         image.style.top = y+"px";

@@ -1,0 +1,11 @@
+/*div*/
+#animalPictures{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+/*images in div*/
+#animalPictures img{
+    height: 50px;
+}
