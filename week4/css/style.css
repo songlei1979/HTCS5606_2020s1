@@ -1,0 +1,9 @@
+p{
+    display: none;
+}
+
+#doubleClick{
+    width: 100px;
+    height: 50px;
+    background-color: #ffb861;
+}
