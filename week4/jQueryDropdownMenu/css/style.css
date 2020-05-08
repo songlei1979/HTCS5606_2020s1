@@ -1,0 +1,24 @@
+#nav{
+    /*if I want to make navigation bar always in front of everything,
+    I need position to be something, I recommend relative*/
+    /*z-index is something like layer*/
+    position: relative;
+    height: 30px;
+    z-index:10;
+}
+
+.level1{
+    vertical-align: top;
+    display:inline-block;
+    margin-left: 20px;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+.level2{
+    display: none;
+}
+
+
