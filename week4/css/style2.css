@@ -1,0 +1,13 @@
+#demo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /*display: none;*/
+}
+
+#forslide{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    display: none;
+}
