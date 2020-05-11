@@ -30,4 +30,10 @@ $(document).ready(function () {
         $("#changeValueHere").val("Hello Song");//change the value in the input box
     });
 
+    $("#addHTMLToTable").click(function () {
+        alert( $("#demoTable").html() ); //collect html code in my element
+        $("#demoTable").html("<tr><td>Lei Song</td><td>40</td><td>Male</td></tr>" +
+            "<tr><td>Lei Song 2</td><td>40</td><td>Male</td></tr>");
+    });
+
 });
