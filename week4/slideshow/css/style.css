@@ -1,0 +1,17 @@
+#smallImgs img{
+    width: 100px;
+    height: 100px;
+}
+
+#smallImgs{
+    text-align: center;
+}
+
+#bigImgs{
+    text-align: center;
+}
+
+#bigImgs img{
+    width: 800px;
+    display: none;
+}
