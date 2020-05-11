@@ -36,4 +36,37 @@ $(document).ready(function () {
             "<tr><td>Lei Song 2</td><td>40</td><td>Male</td></tr>");
     });
 
+    $("#showAttrOfTable").click(function () {
+        alert( $("#demoTable").attr("price") );
+        alert( $("#demoTable").attr("age") );
+        alert( $("#demoTable").attr("attr1") );
+    })
+
+    $("#appendBtn").click(function () {
+        $("#demoTable").append("<tr><td>Lei Song</td><td>40</td><td>Male</td></tr>");
+    });
+
+    $("#prependBtn").click(function () {
+        $("#demoTable").prepend("<tr><td>Lei Song</td><td>40</td><td>Male</td></tr>");
+    });
+
+    $("#addBeforeHeading").click(function () {
+        $("#tableHeading").before("<tr><td>Before</td><td>40</td><td>Male</td></tr>");
+    });
+
+    $("#addAfterHeading").click(function () {
+        $("#tableHeading").after("<tr><td>After</td><td>40</td><td>Male</td></tr>");
+    });
+
+    $("#removeHeading").click(function () {
+        $("#tableHeading").remove();
+    });
+
+    $("#emptyTable").click(function () {
+        $("#demoTable").empty();
+    });
+
+    $("#addClass").click(function () {
+        $("#demoTable").toggleClass("table1");
+    });
 });
