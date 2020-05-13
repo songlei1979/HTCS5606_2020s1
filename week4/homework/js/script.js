@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $.ajax({
-        type: 'GET',
+        type: 'GET', //post
         url: 'https://djangorestframestudy.herokuapp.com/api/leads/',
         dataType: "JSON", // data type expected from server
         success: function (data) {
@@ -19,7 +19,7 @@ $(document).ready(function () {
             $(".showPerson").click(function () {
                 personID = $(this).attr("personID"); // this is the clicked button, we take value of person ID on this button
                 $.ajax({
-                    type: 'GET',
+                    type: 'GET', //delete
                     url:'https://djangorestframestudy.herokuapp.com/api/leads/'+personID+'/',
                     success: function (data) {
                         console.log(data);
