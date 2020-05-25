@@ -51,14 +51,14 @@ function getPersionInfo(personID) {
     $.ajax({
         type: 'GET', //delete
         url:'https://djangorestframestudy.herokuapp.com/api/leads/'+personID+'/',
-        success: function (data) {
-            console.log(data);
+        success: function (person) {
+            console.log(person);
             $("#personInfo").empty(); //clean my divider
             $("#personInfo").append("" +
-                "<p>ID: "+data.id+"</p>" +
-                "<p>Name: "+data.name+"</p>" +
-                "<p>Email: "+data.email+"</p>" +
-                "<p>Message: "+data.message+"</p>" +
+                "<p>ID: "+person.id+"</p>" +
+                "<p>Name: "+person.name+"</p>" +
+                "<p>Email: "+person.email+"</p>" +
+                "<p>Message: "+person.message+"</p>" +
                 "");
         },
         error: function () {
